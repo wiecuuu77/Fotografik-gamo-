@@ -385,7 +385,7 @@
   384  zip -q -j ../../gotowe_zdjecia.zip *
   385  cd ../..
   386  rm -rf roboczy
-  387  echo "Zrobione bez pierdolenia! Sprawdź gotowe_zdjecia.zip na Pulpicie."
+  387  echo "Zrobione! Sprawdź gotowe_zdjecia.zip na Pulpicie."
   388  mkdir -p Fotografik_gamon_git
   389  cd moj_projekt_git
   390  cd Fotografik_gamon_git
