@@ -1,0 +1,402 @@
+    1  /c/Users/user/Desktop
+    2  cd /c/Users/user/Desktop
+    3  ls -l steps-2*
+    4  awk -F';' 'NR > 1 {print "INSERT INTO stepsData (time, intensity, steps) VALUES (" $1 ", " $2 ", " $3 ");"}' steps-2sql.csv > steps-2sql.sql
+    5  echo "dateTime;steps;synced" > steps-2csv.csv
+    6  awk -F'[(), ]+' '/INSERT INTO/ {time=substr($9, 1, length($9)-3); print time ";" $10 ";" $11}' steps-2csv.sql >> steps-2csv.csv
+    7  head -n 5 steps-2sql.sql
+    8  cat steps-2csv.csv
+    9  echo "# Z-CSV-do-SQL-i-z-powrotem" >> README.md
+   10  git init
+   11  git add README.md
+   12  git commit -m "first commit"
+   13  git branch -M main
+   14  git remote add origin https://github.com/wiecuuu77/Z-CSV-do-SQL-i-z-powrotem.git
+   15  git push -u origin main
+   16  pacman -S git
+   17  echo "# Z-CSV-do-SQL-i-z-powrotem" >> README.md
+   18  echo "# Z-CSV-do-SQL-i-z-powrotem" >> README.md
+   19  git init
+   20  git add README.md
+   21  git commit -m "first commit"
+   22  git branch -M main
+   23  git remote add origin https://github.com/wiecuuu77/Z-CSV-do-SQL-i-z-powrotem.git
+   24  git push -u origin main
+   25  cd /c/Users/user/Desktop
+   26  awk -F';' 'NR > 1 {print "INSERT INTO stepsData (time, intensity, steps) VALUES (" $1 ", " $2 ", " $3 ");"}' steps-2sql.csv > steps-2sql.sql
+   27  echo "dateTime;steps;synced" > steps-2csv.csv
+   28  awk -F'[(), ]+' '/INSERT INTO/ {time=substr($9, 1, length($9)-3); print time ";" $10 ";" $11}' steps-2csv.sql >> steps-2csv.csv
+   29  [200~echo "# Z-CSV-do-SQL-i-z-powrotem" >> README.md
+   30  git init
+   31  git add README.md
+   32  git commit -m "first commit"
+   33  git branch -M main
+   34  git remote add origin https://github.com/wiecuuu77/Z-CSV-do-SQL-i-z-powrotem.git
+   35  echo "# Z-CSV-do-SQL-i-z-powrotem" >> README.md
+   36  git init
+   37  git add README.md
+   38  git commit -m "first commit"
+   39  git branch -M main
+   40  git remote add origin https://github.com/wiecuuu77/Z-CSV-do-SQL-i-z-powrotem.git
+   41  git push -u origin main
+   42  git init
+   43  git add steps-2sql.sql steps-2csv.csv
+   44  git commit -m "Zadanie z laboratorium: konwersja SQL i CSV"
+   45  git config --global user.email "kacperwiec77@gmail.com"
+   46  git config --global user.name "wiecuuu77"
+   47  git init
+   48  git add steps-2sql.sql steps-2csv.csv
+   49  git commit -m "Zadanie z laboratorium: konwersja SQL i CSV"
+   50  git branch -M main
+   51  git remote add origin https://github.com/TwojaNazwaUżytkownika/laboratorium-sql-csv.git
+   52  git push -u origin main
+   53  git push -u origin main
+   54  git push -u origin main
+   55  git push -u origin main
+   56  git config --global --add safe.directory C:/Users/user/Desktop
+   57  git add steps-2sql.sql steps-2csv.csv
+   58  git commit -m "Zadanie z laboratorium: konwersja SQL i CSV"
+   59  mkdir -p /c/Users/user/Desktop/Zadanie-Lab
+   60  cp /c/Users/user/Desktop/steps-2sql.sql /c/Users/user/Desktop/Zadanie-Lab/
+   61  cp /c/Users/user/Desktop/steps-2csv.csv /c/Users/user/Desktop/Zadanie-Lab/
+   62  cd /c/Users/user/Desktop/Zadanie-Lab
+   63  git init
+   64  git add steps-2sql.sql steps-2csv.csv
+   65  git commit -m "Zadanie z laboratorium: konwersja SQL i CSV"
+   66  git branch -M main
+   67  git remote add origin https://github.com/wiecuuu77/Z-CSV-do-SQL-i-z-powrotem.git
+   68  git push -u origin main
+   69  git push -u origin main
+   70  git add steps-2csv.sql steps-2sql.csv
+   71  zip -r zadanie.zip steps-2sql.sql steps-2csv.csv
+   72  cd /c/Users/user/Desktop
+   73  zip zadanie.zip steps-2sql.sql steps-2csv.csv
+   74  tar -czvf zadanie.tar.gz steps-2sql.sql steps-2csv.csv
+   75  git add zadanie.tar.gz
+   76  git commit -m "Zadanie z laboratorium: archiwum tar.gz"
+   77  git push -u origin main
+   78  /c/Users/user/Desktop
+   79  cd /c/Users/user/Desktop
+   80  sed -E 's/^([[:space:]]*"[^"]+":.*)$/\1\n\1/; s/^([[:space:]]*"[^"]+":.*)\n/\/\/ \1\n/' en-7.2.json5 > pl-7.2.json5
+   81  echo "{" > pl-7.4.json5
+   82  grep -Fvxf en-7.2.json5 en-7.4.json5 | grep '"' | sed -E 's/^([[:space:]]*"[^"]+":.*)$/\1\n\1/; s/^([[:space:]]*"[^"]+":.*)\n/\/\/ \1\n/' >> pl-7.4.json5 
+   83  echo "}" >> pl-7.4.json5
+   84  cat pl-7.2.json5 cat pl-7.4.json5
+   85  pacman -S --noconfirm unzip zip mingw-w64-ucrt-x86_64-imagemagick
+   86  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjściowe
+   87  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+   88  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+   89  cd /c/Users/user/Desktop
+   90  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjściowe
+   91  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+   92  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+   93  cd roboczy/wypakowane_zipy
+   94  echo "Przetwarzanie pojedynczych zdjęć..."
+   95  for archiwum in *.zip; do
+   96      [ -e "$archiv" ] || continue;  echo "Przetwarzanie pojedynczych zdjęć..."; for archiwum in *.zip; do for archiwum in *.zip; do     [ -e "$archiv" ] || continue;  echo "Przetwarzanie pojedynczych zdjęć..."; for archiwum in *.zip; cd roboczy/wypakowane_zipyecho "Przetwarzanie pojedynczych zdjęć..."
+   97  for archiwum in *.zip; do
+   98  cd /c/Users/user/Desktop
+   99  cd roboczy/wypakowane_zipy
+  100  echo "Przetwarzanie pojedynczych zdjęć..."
+  101  for archiwum in *.zip; do
+  102      [ -e "$archiv" ] || continue
+  103      unzip -q "$archiwum" -d tmp_foto
+  104      for foto in tmp_foto/*; do         if [ -f "$foto" ]; then
+  105              nazwa_bazowa=$(basename "$foto" | sed 's/\.[^.]*$/.jpg/');             
+  106              magick "$foto" -resize x720 -density 96 -units PixelsPerInch "../zdjecia_wyjściowe/$nazwa_bazowa";         fi;     done;     
+  107      rm -rf tmp_foto; done
+  108  cd
+  109  cd /c/Users/user/Desktop
+  110  # 1. Tworzenie czystych katalogów roboczych 
+  111  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjściowe
+  112  # 2. Wypakowanie wewnętrznych zipów z kopie-1.zip i kopie-2.zip do jednego folderu
+  113  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  114  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  115  # 3. Wejście do folderu z wewnętrznymi zipami (tymi z datami)
+  116  cd roboczy/wypakowane_zipy
+  117  # 4. Pętla przetwarzająca każdy pojedynczy plik ZIP z datą 
+  118  echo "Przetwarzanie pojedynczych zdjęć..."
+  119  for archiwum in *.zip; do
+  120      [ -e "$archiv" ] || continue
+  121      unzip -q "$archiwum" -d tmp_foto
+  122      for foto in tmp_foto/*; do         if [ -f "$foto" ]; then
+  123              nazwa_bazowa=$(basename "$foto" | sed 's/\.[^.]*$/.jpg/');             
+  124              magick "$foto" -resize x720 -density 96 -units PixelsPerInch "../zdjecia_wyjściowe/$nazwa_bazowa";         fi;     done
+  125      rm -rf tmp_foto; done
+  126  # 5. Powrót na Pulpit i pakowanie gotowych zdjęć
+  127  cd ../..
+  128  echo "Pakowanie przetworzonych zdjęć do gotowe_zdjecia.zip..."
+  129  cd roboczy/zdjecia_wyjściowe
+  130  zip -q -j ../../gotowe_zdjecia.zip *
+  131  # 6. Sprzątanie po pracy
+  132  cd ../..
+  133  rm -rf roboczy
+  134  echo "Gotowe! Poprawnie przetworzone pliki znajdziesz w archiwum: gotowe_zdjecia.zip na Pulpicie."
+  135  pacman -S --noconfirm unzip zip mingw-w64-ucrt-x86_64-imagemagick
+  136  # 1. Tworzenie czystych katalogów roboczych 
+  137  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjściowe
+  138  # 2. Wypakowanie wewnętrznych zipów z kopie-1.zip i kopie-2.zip do jednego folderu
+  139  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  140  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  141  # 3. Wejście do folderu z wewnętrznymi zipami (tymi z datami)
+  142  cd roboczy/wypakowane_zipy
+  143  # 4. Pętla przetwarzająca każdy pojedynczy plik ZIP z datą 
+  144  echo "Przetwarzanie pojedynczych zdjęć..."
+  145  for archiwum in *.zip; do
+  146      [ -e "$archiv" ] || continue
+  147      unzip -q "$archiwum" -d tmp_foto
+  148      for foto in tmp_foto/*; do         if [ -f "$foto" ]; then
+  149              nazwa_bazowa=$(basename "$foto" | sed 's/\.[^.]*$/.jpg/');             
+  150              magick "$foto" -resize x720 -density 96 -units PixelsPerInch "../zdjecia_wyjściowe/$nazwa_bazowa";         fi;     done
+  151      rm -rf tmp_foto; done
+  152  # 5. Powrót na Pulpit i pakowanie gotowych zdjęć
+  153  cd ../..
+  154  echo "Pakowanie przetworzonych zdjęć do gotowe_zdjecia.zip..."
+  155  cd roboczy/zdjecia_wyjściowe
+  156  zip -q -j ../../gotowe_zdjecia.zip *
+  157  # 6. Sprzątanie po pracy
+  158  cd ../..
+  159  rm -rf roboczy
+  160  echo "Gotowe! Poprawnie przetworzone pliki znajdziesz w archiwum: gotowe_zdjecia.zip na Pulpicie."
+  161  # 1. Tworzenie czystych katalogów roboczych 
+  162  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjściowe
+  163  # 2. Wypakowanie wewnętrznych zipów z kopie-1.zip i kopie-2.zip do jednego folderu
+  164  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  165  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  166  # 3. Wejście do folderu z wewnętrznymi zipami (tymi z datami)
+  167  cd roboczy/wypakowane_zipy
+  168  # 4. Pętla przetwarzająca każdy pojedynczy plik ZIP z datą 
+  169  echo "Przetwarzanie pojedynczych zdjęć..."
+  170  for archiwum in *.zip; do
+  171      [ -e "$archiv" ] || continue
+  172      unzip -q "$archiwum" -d tmp_foto
+  173      for foto in tmp_foto/*; do         if [ -f "$foto" ]; then
+  174              nazwa_bazowa=$(basename "$foto" | sed 's/\.[^.]*$/.jpg/');             
+  175              magick "$foto" -resize x720 -density 96 -units PixelsPerInch "../zdjecia_wyjściowe/$nazwa_bazowa";         fi;     done
+  176      rm -rf tmp_foto; done
+  177  # 5. Powrót na Pulpit i pakowanie gotowych zdjęć
+  178  cd ../..
+  179  echo "Pakowanie przetworzonych zdjęć do gotowe_zdjecia.zip..."
+  180  cd roboczy/zdjecia_wyjściowe
+  181  zip -q -j ../../gotowe_zdjecia.zip *
+  182  # 6. Sprzątanie po pracy
+  183  cd ../..
+  184  rm -rf roboczy
+  185  echo "Gotowe! Poprawnie przetworzone pliki znajdziesz w archiwum: gotowe_zdjecia.zip na Pulpicie."# 1. Tworzenie czystych katalogów roboczych 
+  186  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjściowe
+  187  # 2. Wypakowanie wewnętrznych zipów z kopie-1.zip i kopie-2.zip do jednego folderu
+  188  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  189  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  190  # 3. Wejście do folderu z wewnętrznymi zipami (tymi z datami)
+  191  cd roboczy/wypakowane_zipy
+  192  # 4. Pętla przetwarzająca każdy pojedynczy plik ZIP z datą 
+  193  echo "Przetwarzanie pojedynczych zdjęć..."
+  194  for archiwum in *.zip; do
+  195      [ -e "$archiv" ] || continue
+  196      unzip -q "$archiwum" -d tmp_foto
+  197      for foto in tmp_foto/*; do         if [ -f "$foto" ]; then
+  198              nazwa_bazowa=$(basename "$foto" | sed 's/\.[^.]*$/.jpg/');             
+  199              magick "$foto" -resize x720 -density 96 -units PixelsPerInch "../zdjecia_wyjściowe/$nazwa_bazowa";         fi;     done
+  200      rm -rf tmp_foto; done
+  201  # 5. Powrót na Pulpit i pakowanie gotowych zdjęć
+  202  cd ../..
+  203  echo "Pakowanie przetworzonych zdjęć do gotowe_zdjecia.zip..."
+  204  cd roboczy/zdjecia_wyjściowe
+  205  zip -q -j ../../gotowe_zdjecia.zip *
+  206  # 6. Sprzątanie po pracy
+  207  cd ../..
+  208  rm -rf roboczy
+  209  echo "Gotowe! Poprawnie przetworzone pliki znajdziesz w archiwum: gotowe_zdjecia.zip na Pulpicie."
+  210  \
+  211  pacman -S --noconfirm mingw-w64-ucrt-x86_64-imagemagick unzip zip
+  212  cd /c/Users/user/Desktop
+  213  pacman -S --noconfirm mingw-w64-ucrt-x86_64-imagemagick unzip zip
+  214  cd /c/Users/user/Desktop
+  215  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjściowe
+  216  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  217  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  218  cd roboczy/wypakowane_zipy
+  219  for archiwum in *.zip; do     [ -e "$archiwum" ] || continue;     unzip -q "$archiwum" -d tmp_foto;     for foto in tmp_foto/*; do         if [ -f "$foto" ]; then             nazwa_bazowa=$(basename "$foto" | sed 's/\.[^.]*$/.jpg/');             magick "$foto" -resize x720 -density 96 -units PixelsPerInch "../zdjecia_wyjściowe/$nazwa_bazowa";         fi;     done;     rm -rf tmp_foto; done
+  220  cd ../..
+  221  cd roboczy/zdjecia_wyjściowe
+  222  zip -q -j ../../gotowe_zdjecia.zip *
+  223  cd ../..
+  224  rm -rf roboczy
+  225  echo "Zrobione. Masz gotowe_zdjecia.zip na Pulpicie."
+  226  cd /c/Users/user/Desktop
+  227  montage *.jpg -label '%f' -tile 2x4 -geometry 800x720+15+20 -page A4 -density 150 portfolio_gamonia.pdf
+  228  cd /c/Users/user/Desktop
+  229  unzip -q gotowe_zdjecia.zip -d tymczasowe_jpg
+  230  cd tymczasowe_jpg
+  231  montage *.jpg -label '%f' -tile 2x4 -geometry 800x720+15+20 -page A4 -density 150 ../portfolio_gamonia.pdf
+  232  cd .. && rm -rf tymczasowe_jpg
+  233  cd /c/Users/user/Desktop
+  234  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjsciowe
+  235  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  236  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  237  cd /c/Users/user/Desktop
+  238  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjsciowe
+  239  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  240  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  241  python -c '
+  242  import os, glob, zipfile
+  243  from PIL import Image
+  244  # 1. Rozpakuj wszystkie wewnętrzne zipy z datami
+  245  os.chdir("roboczy/wypakowane_zipy")
+  246  for zip_file in glob.glob("*.zip"):
+  247      with zipfile.ZipFile(zip_file, "r") as z:
+  248          z.extractall("tmp_foto")
+  249  # 2. Przetwórz każde wyciągnięte zdjęcie
+  250  os.makedirs("../zdjecia_wyjsciowe", exist_ok=True)
+  251  for foto_path in glob.glob("tmp_foto/*"):
+  252      if os.path.isfile(foto_path):
+  253          try:
+  254              with Image.open(foto_path) as img:
+  255                  # Oblicz nową szerokość, zachowując proporcje dla wysokości 720px
+  256                  w, h = img.size
+  257                  new_h = 720
+  258                  new_w = int((w / h) * new_h)
+  259                  
+  260                  # Zmiana rozmiaru
+  261                  img_resized = img.resize((new_w, new_h), Image.Resampling.LANCZOS)
+  262                  
+  263                  # Przygotowanie nazwy wyjściowej z rozszerzeniem .jpg
+  264                  base_name = os.path.splitext(os.path.basename(foto_path))[0] + ".jpg"
+  265                  out_path = os.path.join("../zdjecia_wyjsciowe", base_name)
+  266                  
+  267                  # Zapis do JPG z wymuszeniem 96 DPI
+  268                  if img_resized.mode in ("RGBA", "P"):
+  269                      img_resized = img_resized.convert("RGB")
+  270                  img_resized.save(out_path, "JPEG", dpi=(96, 96))
+  271          except Exception as e:
+  272              print(f"Błąd pliku {foto_path}: {e}")
+  273  '
+  274  # 3. Pakowanie gotowych zdjęć na Pulpit i sprzątanie
+  275  cd ../zdjecia_wyjsciowe
+  276  zip -q -j ../../gotowe_zdjecia.zip *
+  277  cd ../..
+  278  rm -rf roboczy
+  279  echo "Zrobione! Nowy, poprawny gotowe_zdjecia.zip leży na Pulpicie."
+  280  cd /c/Users/user/Desktop
+  281  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjsciowe
+  282  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  283  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  284  python -c '
+  285  import os, glob, zipfile
+  286  from PIL import Image
+  287  # 1. Rozpakuj wszystkie wewnętrzne zipy z datami
+  288  os.chdir("roboczy/wypakowane_zipy")
+  289  for zip_file in glob.glob("*.zip"):
+  290      with zipfile.ZipFile(zip_file, "r") as z:
+  291          z.extractall("tmp_foto")
+  292  # 2. Przetwórz każde wyciągnięte zdjęcie
+  293  os.makedirs("../zdjecia_wyjsciowe", exist_ok=True)
+  294  for foto_path in glob.glob("tmp_foto/*"):
+  295      if os.path.isfile(foto_path):
+  296          try:
+  297              with Image.open(foto_path) as img:
+  298                  # Oblicz nową szerokość, zachowując proporcje dla wysokości 720px
+  299                  w, h = img.size
+  300                  new_h = 720
+  301                  new_w = int((w / h) * new_h)
+  302                  
+  303                  # Zmiana rozmiaru
+  304                  img_resized = img.resize((new_w, new_h), Image.Resampling.LANCZOS)
+  305                  
+  306                  # Przygotowanie nazwy wyjściowej z rozszerzeniem .jpg
+  307                  base_name = os.path.splitext(os.path.basename(foto_path))[0] + ".jpg"
+  308                  out_path = os.path.join("../zdjecia_wyjsciowe", base_name)
+  309                  
+  310                  # Zapis do JPG z wymuszeniem 96 DPI
+  311                  if img_resized.mode in ("RGBA", "P"):
+  312                      img_resized = img_resized.convert("RGB")
+  313                  img_resized.save(out_path, "JPEG", dpi=(96, 96))
+  314          except Exception as e:
+  315              print(f"Błąd pliku {foto_path}: {e}")
+  316  '
+  317  # 3. Pakowanie gotowych zdjęć na Pulpit i sprzątanie
+  318  cd ../zdjecia_wyjsciowe
+  319  zip -q -j ../../gotowe_zdjecia.zip *
+  320  cd ../..
+  321  rm -rf roboczy
+  322  echo "Zrobione! Nowy, poprawny gotowe_zdjecia.zip leży na Pulpicie."
+  323  pacman -S --noconfirm mingw-w64-ucrt-x86_64-imagemagick unzip zip
+  324  rm -rf /c/Users/user/Desktop/roboczy /c/Users/user/Desktop/gotowe_zdjecia.zip
+  325  cd /c/Users/user/Desktop
+  326  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjsciowe
+  327  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  328  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  329  cd roboczy/wypakowane_zipy
+  330  for archiwum in *.zip; do     [ -e "$archiwum" ] || continue;     unzip -q "$archiwum" -d tmp_foto;     for foto in tmp_foto/*; do         if [ -f "$foto" ]; then             nazwa_bazowa=$(basename "$foto" | sed 's/\.[^.]*$/.jpg/')
+  331              convert "$foto" -resize x720 -density 96 -units PixelsPerInch "../zdjecia_wyjsciowe/$nazwa_bazowa";         fi;     done;     rm -rf tmp_foto; done
+  332  cd ../zdjecia_wyjsciowe
+  333  zip -q -j ../../gotowe_zdjecia.zip *
+  334  cd ../..
+  335  rm -rf roboczy
+  336  echo "Zrobione! Nowe fotki (wysokość 720, 96 DPI) są w gotowe_zdjecia.zip na Pulpicie."
+  337  cd /c/Users/user/Desktop
+  338  rm -rf roboczy gotowe_zdjecia.zip
+  339  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjsciowe
+  340  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  341  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  342  cd roboczy/wypakowane_zipy
+  343  for archiwum in *.zip; do     [ -e "$archiwum" ] || continue;     unzip -q "$archiwum" -d tmp_foto;     for foto in tmp_foto/*; do         if [ -f "$foto" ]; then             nazwa_bazowa=$(basename "$foto" | sed 's/\.[^.]*$/.jpg/')
+  344              magick convert "$foto" -resize x720 -density 96 -units PixelsPerInch "../zdjecia_wyjsciowe/$nazwa_bazowa";         fi;     done;     rm -rf tmp_foto; done
+  345  cd /c/Users/user/Desktop
+  346  rm -rf roboczy gotowe_zdjecia.zip
+  347  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjsciowe
+  348  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  349  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  350  cd roboczy/wypakowane_zipy
+  351  for archiwum in *.zip; do     [ -e "$archiwum" ] || continue;     unzip -q "$archiwum" -d tmp_foto;     for foto in tmp_foto/*; do         if [ -f "$foto" ]; then             nazwa_bazowa=$(basename "$foto" | sed 's/\.[^.]*$/.jpg/')
+  352              magick convert "$foto" -resize x720 -density 96 -units PixelsPerInch "../zdjecia_wyjsciowe/$nazwa_bazowa" 2>/dev/null;         fi;     done;     rm -rf tmp_foto; done
+  353  cd ../zdjecia_wyjsciowe
+  354  zip -q -j ../../gotowe_zdjecia.zip *
+  355  cd ../..
+  356  rm -rf roboczy
+  357  echo "Zrobione bez pierdolenia! Sprawdź gotowe_zdjecia.zip na Pulpicie."
+  358  cd /c/Users/user/Desktop
+  359  # 1. Tworzymy główny katalog na uporządkowane kopie i folder tymczasowy
+  360  mkdir -p kopie roboczy_porzadki
+  361  # 2. Rozpakowujemy wszystkie wewnętrzne zipy z datami do jednego folderu roboczego
+  362  unzip -q kopie-1.zip -d roboczy_porzadki
+  363  unzip -q kopie-2.zip -d roboczy_porzadki
+  364  cd roboczy_porzadki
+  365  # 3. Pętla lecąca po każdym pliku zip z datą (np. 2018-02-10.zip)
+  366  for plik in *.zip; do     [ -e "$plik" ] || continue;     
+  367      rok=$(echo "$plik" | cut -d'-' -f1);     
+  368      miesiac=$(echo "$plik" | cut -d'-' -f2);     
+  369      mkdir -p "../kopie/$rok/$miesiac";     
+  370      mv "$plik" "../kopie/$rok/$miesiac/"; done
+  371  cd /c/Users/user/Desktop
+  372  cd
+  373  pacman -S --noconfirm mingw-w64-ucrt-x86_64-imagemagick unzip zip
+  374  cd /c/Users/user/Desktop
+  375  rm -rf roboczy gotowe_zdjecia.zip
+  376  cd /c/Users/user/Desktop
+  377  rm -rf roboczy gotowe_zdjecia.zip
+  378  mkdir -p roboczy/wypakowane_zipy roboczy/zdjecia_wyjsciowe
+  379  unzip -q kopie-1.zip -d roboczy/wypakowane_zipy
+  380  unzip -q kopie-2.zip -d roboczy/wypakowane_zipy
+  381  cd roboczy/wypakowane_zipy
+  382  for archiwum in *.zip; do     [ -e "$archiwum" ] || continue;     unzip -q "$archiwum" -d tmp_foto;     for foto in tmp_foto/*; do         if [ -f "$foto" ]; then             nazwa_bazowa=$(basename "$foto" | sed 's/\.[^.]*$/.jpg/')
+            magick convert "$foto" -resize x720 -density 96 -units PixelsPerInch "../zdjecia_wyjsciowe/$nazwa_bazowa" 2>/dev/null;         fi;     done;     rm -rf tmp_foto; done
+  383  cd ../zdjecia_wyjsciowe
+  384  zip -q -j ../../gotowe_zdjecia.zip *
+  385  cd ../..
+  386  rm -rf roboczy
+  387  echo "Zrobione bez pierdolenia! Sprawdź gotowe_zdjecia.zip na Pulpicie."
+  388  mkdir -p Fotografik_gamon_git
+  389  cd moj_projekt_git
+  390  cd Fotografik_gamon_git
+  391  git init
+  392  git add .
+  393  git commit -m
+  394  git commit -m "Dodanie skryptów oraz gotowego archiwum gotowe_zdjęcia.zip"
+  395  git branch -M main
+  396  git remote add origin https://github.com/wiecuuu77/Fotografik-gamo-
+  397  git push -u origin main
+  398  git push -u origin main
+  399  git push -u origin main
+  400  git push -u origin main
+  401  history > historia_konsoli.txt
